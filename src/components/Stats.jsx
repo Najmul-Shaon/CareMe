@@ -18,7 +18,7 @@ const Stats = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-4 gap-4 mt-18">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-18">
       {stats.map((stat) => (
         <div className="bg-secondaryColor p-4 space-y-2 rounded-lg">
           <h3 className="text-4xl font-extrabold text-primaryColor">
