@@ -3,24 +3,28 @@ import { TiTick } from "react-icons/ti";
 const WhyUs = () => {
   const whyUs = [
     {
+      id: 1,
       header: "0% Commission Fee",
       content:
         "Suppliers selling on Meesho keep 100% of their profit by not paying any commission",
       icon: "/src/assets/icon1.png",
     },
     {
+      id: 2,
       header: "0 Penalty Charges",
       content:
         "Suppliers selling on Meesho keep 100% of their profit by not paying any commission",
       icon: "/src/assets/icon2.png",
     },
     {
+      id: 3,
       header: "Growth for Every Supplier",
       content:
         "From small to large and unbranded to branded, and now open for Sellers who don't have a Regular GSTIN too, Meesho fuels growth for all suppliers.",
       icon: "/src/assets/icon3.png",
     },
     {
+      id: 4,
       header: "Ease of Doing Business",
       contentList: [
         "Easy Product Listing",
@@ -31,7 +35,7 @@ const WhyUs = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-18 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-18 items-center max-w-screen-xl mx-auto px-4">
       <div className="space-y-2">
         <h3 className="text-4xl font-extrabold text-primaryColor">
           Why Suppliers Love Care Me
@@ -43,7 +47,10 @@ const WhyUs = () => {
       </div>
       <div className="p-6 border rounded-lg border-gray-300">
         {whyUs.map((w) => (
-          <div className="flex items-start gap-4 py-6 border-b-1 border-gray-300">
+          <div
+            key={w?.id}
+            className="flex items-start gap-4 py-6 border-b-1 border-gray-300"
+          >
             <figure className="min-w-14">
               <img className="w-12" src={w?.icon} alt="icon" />
             </figure>
