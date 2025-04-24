@@ -1,9 +1,15 @@
+import Blogs from "../components/Blogs";
+import Rewards from "../components/Rewards";
 import Stats from "../components/Stats";
+import WhyUs from "../components/WhyUs";
 
 const Home = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 font-open-sans">
+    <div className="font-open-sans">
       <Stats />
+      <WhyUs />
+      <Rewards />
+      <Blogs />
     </div>
   );
 };
