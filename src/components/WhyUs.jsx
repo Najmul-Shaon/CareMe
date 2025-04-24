@@ -1,3 +1,5 @@
+import { TiTick } from "react-icons/ti";
+
 const WhyUs = () => {
   const whyUs = [
     {
@@ -20,8 +22,11 @@ const WhyUs = () => {
     },
     {
       header: "Ease of Doing Business",
-      content:
-        "Easy Product Listing Lowest Cost Shipping 7-Day Payment Cycle from the delivery date",
+      contentList: [
+        "Easy Product Listing",
+        "Lowest Cost Shipping",
+        "7-Day Payment Cycle from the delivery date",
+      ],
       icon: "/src/assets/icon4.png",
     },
   ];
@@ -39,12 +44,27 @@ const WhyUs = () => {
       <div className="p-6 border rounded-lg border-gray-300">
         {whyUs.map((w) => (
           <div className="flex items-start gap-4 py-6 border-b-1 border-gray-300">
-            <figure>
+            <figure className="min-w-14">
               <img className="w-12" src={w?.icon} alt="icon" />
             </figure>
             <div className="space-y-2">
-              <h3 className="text-2xl font-semibold text-textHeadingColor">{w?.header}</h3>
-              <p className="text-textSubHeadingColor tracking-wide">{w?.content}</p>
+              <h3 className="text-xl font-bold text-textHeadingColor">
+                {w?.header}
+              </h3>
+              {w?.content && (
+                <p className="text-textSubHeadingColor tracking-wide">
+                  {w?.content}
+                </p>
+              )}
+              {w?.contentList && (
+                <ul className="text-textSubHeadingColor">
+                  {w.contentList.map((item, i) => (
+                    <li key={i} className="list-inside flex items-start gap-1">
+                      <TiTick className="text-primaryColor" /> {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         ))}
