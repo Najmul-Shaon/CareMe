@@ -1,2 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  /* font  */
+  --font-open-sans: "Open Sans", "sans-serif";
+  /* colors theme  */
+  --color-primaryColor: #5e0523;
+  --color-secondaryColor: #fff8f4;
+  --color-backgroundColor: #ffffff;
+  --color-accentColor: #0280ff;
+  --color-textHeadingColor: #000000;
+  --color-textSubHeadingColor: #6e6e6f;
+  --color-footerTextColor: #ffffff;
+}
