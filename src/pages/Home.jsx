@@ -1,7 +1,7 @@
+import Blogs from "../components/Blogs";
 import Rewards from "../components/Rewards";
 import Stats from "../components/Stats";
 import WhyUs from "../components/WhyUs";
-import SupplierRewards from "../components/SupplierRewards";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <Stats />
       <WhyUs />
       <Rewards />
-      {/* <SupplierRewards/> */}
+      <Blogs />
     </div>
   );
 };
