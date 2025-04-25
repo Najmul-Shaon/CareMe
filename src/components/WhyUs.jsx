@@ -1,4 +1,8 @@
 import { TiTick } from "react-icons/ti";
+import img1 from "../assets/icon1.png";
+import img2 from "../assets/icon2.png";
+import img3 from "../assets/icon3.png";
+import img4 from "../assets/icon4.png";
 
 const WhyUs = () => {
   const whyUs = [
@@ -7,21 +11,21 @@ const WhyUs = () => {
       header: "0% Commission Fee",
       content:
         "Suppliers selling on Meesho keep 100% of their profit by not paying any commission",
-      icon: "/src/assets/icon1.png",
+      icon: img1,
     },
     {
       id: 2,
       header: "0 Penalty Charges",
       content:
         "Suppliers selling on Meesho keep 100% of their profit by not paying any commission",
-      icon: "/src/assets/icon2.png",
+      icon: img2,
     },
     {
       id: 3,
       header: "Growth for Every Supplier",
       content:
         "From small to large and unbranded to branded, and now open for Sellers who don't have a Regular GSTIN too, Meesho fuels growth for all suppliers.",
-      icon: "/src/assets/icon3.png",
+      icon: img3,
     },
     {
       id: 4,
@@ -31,7 +35,7 @@ const WhyUs = () => {
         "Lowest Cost Shipping",
         "7-Day Payment Cycle from the delivery date",
       ],
-      icon: "/src/assets/icon4.png",
+      icon: img4,
     },
   ];
   return (
