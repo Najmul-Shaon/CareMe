@@ -52,6 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="h-[1px] bg-backgroundColor my-12"></div>
+        {/* copyright section  */}
         <div className="footer sm:footer-horizontal footer-center">
           <aside>
             <p className="text-xl">

@@ -32,10 +32,12 @@ const Blogs = () => {
   ];
   return (
     <div className="max-w-screen-xl mx-auto mt-18 px-4 lg:px-0">
+      {/* section title  */}
       <h3 className="text-4xl font-extrabold text-primaryColor text-center leading-11">
         Experiences suppliers love to talk about
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-8">
+        {/* print single blog as item from the array  */}
         {blogsInfo.map((item) => (
           <div
             key={item?.id}
