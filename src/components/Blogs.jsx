@@ -1,10 +1,13 @@
 import { IoPlay } from "react-icons/io5";
+import seller1 from "../assets/seller1.jpg";
+import seller2 from "../assets/seller2.jpg";
+import seller3 from "../assets/seller3.jpg";
 
 const Blogs = () => {
   const blogsInfo = [
     {
       id: 1,
-      image: "/src/assets/seller1.jpg",
+      image: seller1,
       title: "Amit and Rajat Jain",
       address: "Smartees, Tiruppur",
       content:
@@ -12,7 +15,7 @@ const Blogs = () => {
     },
     {
       id: 2,
-      image: "/src/assets/seller2.jpg",
+      image: seller2,
       title: "Amit and Rajat Jain",
       address: "Smartees, Tiruppur",
       content:
@@ -20,7 +23,7 @@ const Blogs = () => {
     },
     {
       id: 3,
-      image: "/src/assets/seller3.jpg",
+      image: seller3,
       title: "Amit and Rajat Jain",
       address: "Smartees, Tiruppur",
       content:
