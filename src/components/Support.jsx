@@ -1,6 +1,4 @@
-import { FaEnvelope, FaRegEnvelope } from "react-icons/fa";
-import icon5 from "../assets/icon5.png";
-import icon6 from "../assets/icon6.png";
+import { FaRegEnvelope } from "react-icons/fa";
 
 const Rewards = () => {
   return (
