@@ -25,6 +25,7 @@ const Banner = () => {
                 Know more
               </span>
             </p>
+            {/* input number section  */}
             <div className="join w-full">
               <input
                 className="input join-item w-[55%] shadow-none"
