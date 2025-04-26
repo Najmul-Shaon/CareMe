@@ -1,8 +1,9 @@
 # CareMe
 
-CareMe is a React-based project built with Vite, TailwindCSS, and React Router.
-- [Live-Link](https://caremebd.netlify.app)
+**CareMe** is a sleek and modern eCommerce landing page crafted for an exceptional user experience.
+With a stunning, responsive design, CareMe delivers seamless performance across all devices — from smartphones and tablets to desktops — ensuring your users always have a beautiful and intuitive browsing experience.
 
+- [Live-Link](https://caremebd.netlify.app)
 
 ## Technologies
 
@@ -44,7 +45,6 @@ To set up the project locally on your machine, follow these steps:
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
-
 
 ## 🛠️ Troubleshooting
 
