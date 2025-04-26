@@ -3,7 +3,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 const Rewards = () => {
   return (
     <div className="bg-secondaryColor font-open-sans mt-18">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center max-w-screen-xl mx-auto px-4 md:px-0 py-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center max-w-screen-xl mx-auto px-4 lg:px-0 py-24">
         <div className="space-y-2">
           <h3 className="text-4xl font-extrabold text-primaryColor max-w-xl leading-11">
             Care Me Supplier Support Available 24/7

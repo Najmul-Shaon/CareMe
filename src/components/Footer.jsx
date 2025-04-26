@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <footer className="bg-primaryColor mt-18 text-footerTextColor">
-      <div className="max-w-screen-xl mx-auto py-12 px-4 md:px-0">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-56 gap-y-12">
+      <div className="max-w-screen-xl mx-auto py-12 px-4 lg:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-6 lg:gap-x-56 gap-y-12">
           {/* site info  */}
           <div className="space-y-5">
             <h1 className="text-4xl font-extrabold">Care Me</h1>

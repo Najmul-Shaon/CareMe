@@ -10,12 +10,12 @@ const PopulerCategories = () => {
     { id: 8, category: "Sell Socks Online" },
   ];
   return (
-    <div className="max-w-screen-xl mx-auto mt-18 font-open-sans px-4 md:px-0">
+    <div className="max-w-screen-xl mx-auto mt-18 font-open-sans px-4 lg:px-0">
       {/* section title  */}
       <h3 className="text-4xl font-extrabold text-primaryColor leading-11">
         Popular Categories to Sell Online
       </h3>
-      <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-x-6 md:gap-x-2 lg:gap-x-24 gap-y-6">
         {categories.map((category) => (
           <div key={category?.id}>
             <h3 className="font-normal text-lg text-textSubHeadingColor cursor-pointer">
