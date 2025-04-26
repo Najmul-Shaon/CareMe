@@ -31,7 +31,7 @@ const Blogs = () => {
     },
   ];
   return (
-    <div className="max-w-screen-xl mx-auto mt-18 px-4 md:px-0">
+    <div className="max-w-screen-xl mx-auto mt-18 px-4 lg:px-0">
       <h3 className="text-4xl font-extrabold text-primaryColor text-center leading-11">
         Experiences suppliers love to talk about
       </h3>
