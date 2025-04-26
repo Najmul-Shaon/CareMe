@@ -3,6 +3,7 @@ import HowItWork from "../components/HowItWork";
 import PopulerCategories from "../components/PopulerCategories";
 import Rewards from "../components/Rewards";
 import Stats from "../components/Stats";
+import Support from "../components/Support";
 import WhyUs from "../components/WhyUs";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Blogs />
       <HowItWork />
       <PopulerCategories />
+      <Support />
     </div>
   );
 };
