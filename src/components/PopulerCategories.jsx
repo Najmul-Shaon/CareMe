@@ -10,7 +10,7 @@ const PopulerCategories = () => {
     { id: 8, category: "Sell Socks Online" },
   ];
   return (
-    <div className="max-w-screen-xl mx-auto mt-18 font-open-sans">
+    <div className="max-w-screen-xl mx-auto mt-18 font-open-sans px-4 md:px-0">
       {/* section title  */}
       <h3 className="text-4xl font-extrabold text-primaryColor leading-11">
         Popular Categories to Sell Online
