@@ -55,7 +55,7 @@ const HowItWork = () => {
               </div>
               {/* content container  */}
               <div className="mt-5 space-y-2">
-                <h3 className="font-bold text-xl text-textHeadingColor max-w-60">
+                <h3 className="font-bold text-xl text-textHeadingColor">
                   {item?.title}
                 </h3>
                 <p className="text-base text-textHeadingColor font-medium tracking-wide">

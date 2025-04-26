@@ -1,5 +1,6 @@
 import Blogs from "../components/Blogs";
 import HowItWork from "../components/HowItWork";
+import PopulerCategories from "../components/PopulerCategories";
 import Rewards from "../components/Rewards";
 import Stats from "../components/Stats";
 import WhyUs from "../components/WhyUs";
@@ -12,6 +13,7 @@ const Home = () => {
       <Rewards />
       <Blogs />
       <HowItWork />
+      <PopulerCategories />
     </div>
   );
 };
