@@ -18,7 +18,7 @@ const Stats = () => {
     { id: 4, header: "700+", subHeader: "Categories to sell online" },
   ];
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-18 max-w-screen-xl mx-auto px-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-18 max-w-screen-xl mx-auto px-4 lg:px-0">
       {stats.map((stat) => (
         <div
           key={stat?.id}

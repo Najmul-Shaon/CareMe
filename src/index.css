@@ -7,10 +7,41 @@
   --font-open-sans: "Open Sans", "sans-serif";
   /* colors theme  */
   --color-primaryColor: #5e0523;
-  --color-secondaryColor: #fff8f4;
+  --color-secondaryColor: #f4f8ff;
+  --color-bannerPrimaryColor: #eae3e3;
+  --color-bannerSecondaryColor: #450000;
   --color-backgroundColor: #ffffff;
-  --color-accentColor: #0280ff;
+  --color-accentColor: #ff8002;
   --color-textHeadingColor: #000000;
   --color-textSubHeadingColor: #6e6e6f;
   --color-footerTextColor: #ffffff;
+}
+
+.menu {
+  :where(
+      li:not(.menu-title, .disabled)
+        > *:not(ul, details, .menu-title):not(
+          .menu-active,
+          :active,
+          .btn
+        ):hover,
+      li:not(.menu-title, .disabled)
+        > details
+        > summary:not(.menu-title):not(.menu-active, :active, .btn):hover
+    ) {
+    /* cursor: pointer; */
+    background-color: transparent;
+    color: #5e0523;
+  }
+}
+
+.menu {
+  & :where(li) {
+    & > :not(ul, .menu-title, details, .btn):active,
+    & > :not(ul, .menu-title, details, .btn).menu-active,
+    & > details > summary:active {
+      color: black;
+      background-color: transparent;
+    }
+  }
 }

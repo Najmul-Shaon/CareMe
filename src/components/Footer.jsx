@@ -10,7 +10,7 @@ const Footer = () => {
               Sell your products to crores of customers on Meesho at 0%
               commission
             </p>
-            <button className="btn btn-sm px-4 py-2 bg-accentColor border-0 text-white text-lg">
+            <button className="btn btn-sm px-4 py-2 shadow-none bg-accentColor border-0 text-white text-lg">
               Start Selling
             </button>
           </div>
