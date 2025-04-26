@@ -4,7 +4,7 @@ import icon6 from "../assets/icon6.png";
 const Rewards = () => {
   return (
     <div className="bg-secondaryColor">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-18 items-center max-w-screen-xl mx-auto px-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-18 items-center max-w-screen-xl mx-auto px-4 lg:px-0">
         <div className="space-y-2">
           <h3 className="text-4xl font-extrabold text-primaryColor max-w-xl leading-11">
             Exclusive Supplier+ Rewards for the first 30 days
